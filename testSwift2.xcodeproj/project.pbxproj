@@ -49,6 +49,8 @@
 		6EC24369256109A8001C31E9 /* testSwift2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSwift2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC2436D256109A8001C31E9 /* testSwift2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSwift2UITests.swift; sourceTree = "<group>"; };
 		6EC2436F256109A8001C31E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC2438125629324001C31E9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6EC243822562935D001C31E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,8 @@
 		6EC2433F256109A7001C31E9 = {
 			isa = PBXGroup;
 			children = (
+				6EC243822562935D001C31E9 /* README.md */,
+				6EC2438125629324001C31E9 /* .gitignore */,
 				6EC2434A256109A7001C31E9 /* testSwift2 */,
 				6EC24361256109A8001C31E9 /* testSwift2Tests */,
 				6EC2436C256109A8001C31E9 /* testSwift2UITests */,
