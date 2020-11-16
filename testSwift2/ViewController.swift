@@ -13,7 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    // Click event
+    @IBAction func Click_moveBtn(_ sender: Any) {
+        print("Click Move")
+    }
+    
 }
 
