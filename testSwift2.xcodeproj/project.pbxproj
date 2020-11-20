@@ -15,6 +15,7 @@
 		6EC24358256109A8001C31E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC24356256109A8001C31E9 /* LaunchScreen.storyboard */; };
 		6EC24363256109A8001C31E9 /* testSwift2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC24362256109A8001C31E9 /* testSwift2Tests.swift */; };
 		6EC2436E256109A8001C31E9 /* testSwift2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2436D256109A8001C31E9 /* testSwift2UITests.swift */; };
+		6EC24387256828C1001C31E9 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC24386256828C1001C31E9 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6EC2436F256109A8001C31E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC2438125629324001C31E9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6EC243822562935D001C31E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6EC24386256828C1001C31E9 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				6EC24354256109A8001C31E9 /* Assets.xcassets */,
 				6EC24356256109A8001C31E9 /* LaunchScreen.storyboard */,
 				6EC24359256109A8001C31E9 /* Info.plist */,
+				6EC24386256828C1001C31E9 /* DetailController.swift */,
 			);
 			path = testSwift2;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC24387256828C1001C31E9 /* DetailController.swift in Sources */,
 				6EC24350256109A7001C31E9 /* ViewController.swift in Sources */,
 				6EC2434C256109A7001C31E9 /* AppDelegate.swift in Sources */,
 				6EC2434E256109A7001C31E9 /* SceneDelegate.swift in Sources */,
@@ -441,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6MG2M7T86;
 				INFOPLIST_FILE = testSwift2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6MG2M7T86;
 				INFOPLIST_FILE = testSwift2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

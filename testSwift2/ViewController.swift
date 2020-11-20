@@ -9,13 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func Click_moveBtn(_ sender: Any) {
+        // find controller: DetailController
+        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailController") {
+            // push controller
+            self.navigationController?.pushViewController(controller, animated: true)
+        }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-    // Click event
-    @IBAction func Click_moveBtn(_ sender: Any) {
-        print("Click Move")
     }
     
 }
